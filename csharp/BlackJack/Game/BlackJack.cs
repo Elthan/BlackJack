@@ -148,7 +148,7 @@ namespace BlackJack.Game
 
         private static string GetPlayerChoice()
         {
-            Console.WriteLine("Stand, Hit");
+            Console.WriteLine("Stand, Hit, Fold");
             var read = Console.ReadLine();
             return read;
         }
